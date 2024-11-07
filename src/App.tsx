@@ -5,7 +5,7 @@ import Header from "./components/Header";
 import Result from "./components/Result";
 
 function App() {
-  const [show, setShow] = useState<SetStateAction<boolean>>(false);
+  const [show, setShow] = useState<React.SetStateAction<boolean>>(false);
   useEffect(() => {
     if (show) {
       const timer = setTimeout(() => {
