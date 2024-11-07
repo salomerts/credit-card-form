@@ -1,0 +1,28 @@
+.title {
+  width: 300px;
+  height: 92px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  align-self: stretch;
+}
+
+.img {
+  width: 104px;
+  height: 65px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.info {
+  color: var(--Black, #030102);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
